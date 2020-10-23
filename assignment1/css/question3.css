@@ -1,0 +1,36 @@
+.box {
+    width: 4vw;
+    height: 4vw;
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: rgb(192, 192, 192);
+    font-size: 70px;
+    display: table-cell;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#row1, #row2, #row3 {
+    float: left;
+    width: 33.33%;
+}
+
+#container {
+    margin: 25px;
+    width: 15%;
+}
+
+input {
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    position: relative;
+    left: 70px;
+}
+
+#playerTurn{
+    position: relative;
+    top: 200px;
+    left: -11%;
+}

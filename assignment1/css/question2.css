@@ -1,0 +1,25 @@
+input {
+    margin-left: 5px;
+}
+
+#number {
+    width: 300px;
+    height: 20px;
+}
+
+#button {
+    width: 150px;
+    height: 25px;
+}
+
+.box {
+    width: 5vw;
+    height: 5vw;
+    background: rgb(10,200,40);
+    float: left;
+    margin: 1vw;
+    padding: 1vw;
+    font-family: sans-serif;
+    font-size: 50pt;
+    text-align: center;
+    }

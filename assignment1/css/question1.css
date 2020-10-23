@@ -1,0 +1,58 @@
+form, table {
+    font-size: 20px;
+}
+
+table, th, td {
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1.5px solid black;
+    border-collapse: collapse;
+}
+
+thead th {
+    padding: 10px 5px;
+}
+
+caption {
+    border: 1.5px solid black;
+}
+
+#counter {
+    text-align: center;
+}
+
+
+input {
+    height: 25px;
+    width: 250px;
+    margin-top: 12px;
+}
+
+select {
+    margin-top: 10px;
+    height: 25px;
+    width: 75px;
+}
+
+#age {
+    position: relative;
+    left: 14px;
+}
+
+#date {
+    position: relative;
+    left: 10px;
+}
+
+input[type=button] {
+    width: 125px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+form{
+    border: 2px solid rgb(17, 23, 59);
+    width: 325px;
+    padding: 10px 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>question1</title>
+        <script src="js/question1.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/question1.css">
+    </head>
+    <body>
+            <div>
+                <form id="form">
+                    Name: <input id="name" /><br>
+                    Age: <input id="age" type="number" /><br>
+                    Height: <select id="feet" name="feet">                    
+                                <option value="4">4'</option>
+                                <option value="5">5'</option>
+                                <option value="6">6'</option>
+                            </select>
+                            <select id="inches" name="inches">
+                                <option value="0">0"</option>
+                                <option value="1">1"</option>
+                                <option value="2">2"</option>
+                                <option value="3">3"</option>
+                                <option value="4">4"</option>
+                                <option value="5">5"</option>
+                                <option value="6">6"</option>
+                                <option value="7">7"</option>
+                                <option value="9">8"</option>
+                                <option value="9">9"</option>
+                                <option value="10">10"</option>
+                                <option value="11">11"</option>
+                            </select><br>
+                    Date: <input id="date" type="date" /><br>
+                    <input type="button" value="reset" onclick="reset()" /><input type="button" value="display" onclick="display()" />
+                </form>
+            </div>
+            <div id="table">
+                <table id="table">
+                    <caption>
+                        <span>Number of rows: </span>
+                        <span id="counter">0</span>
+                    </caption>
+                    <thead>
+                        <tr><th>Name</th> <th>Age</th> <th>Height(ft/in)</th> <th>Date</th> <th>X</th></tr>
+                    </thead>
+                    <tbody id="tbody"></tbody>
+                </table>
+            </div>
+    </body>
+</html>
